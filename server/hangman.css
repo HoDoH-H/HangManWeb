@@ -1,0 +1,170 @@
+body {
+    min-height: 450px;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.HangmanDrawing{
+    background: linear-gradient(to top, #3a404d, #181c26);
+    width: 500px;
+    height: 600px;
+    transform: translate(1008px, -138px);
+    border-radius: 10px;
+}
+
+.Draw-1{
+    background: white;
+    width: 350px;
+    height: 5px;
+    transform: translate(75px, 500px);
+}
+
+.Draw-2{
+    background: white;
+    width: 5px;
+    height: 400px;
+    transform: translate(100px, 100px);
+}
+
+.Draw-3{
+    background: white;
+    width: 200px;
+    height: 5px;
+    transform: translate(100px, -300px);
+}
+
+.Draw-4{
+    background: white;
+    width: 150px;
+    height: 5px;
+    transform: translate(80px, -252px) rotate(-45deg);
+}
+
+.Draw-5{
+    background: linear-gradient(to bottom, white 0%, white 20%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 40%, white 40%, white 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%, white 80%, white 100%);
+    width: 5px;
+    height: 50px;
+    transform: translate(300px, -310px);
+}
+
+.Draw-6{
+    background: white;
+    width: 90px;
+    height: 90px;
+    transform: translate(257px, -310px);
+    border-radius: 100%;
+}
+
+.Draw-7{
+    background: white;
+    width: 5px;
+    height: 130px;
+    transform: translate(300px, -310px);
+}
+
+.Draw-8{
+    background: white;
+    width: 140px;
+    height: 5px;
+    transform: translate(233px, -400px);
+}
+
+.Draw-9{
+    background: white;
+    width: 80px;
+    height: 5px;
+    transform: translate(252px, -282px) rotate(-75deg);
+}
+
+.Draw-10{
+    background: white;
+    width: 80px;
+    height: 5px;
+    transform: translate(273px, -287px) rotate(75deg);
+}
+
+.form{
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(75px, 325px);
+}
+
+.LetterTried{
+    display: flex;
+    transform: translate(120vh, -100px);
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.LetterTried p{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.WinStreak{
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    width: 100px;
+    height: 100px;
+    transform: translate(1010px, -200px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.WinText{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transform: translate(5px, 0px);
+}
+
+.WinText2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transform: translate(-30px, 35px);
+}
+
+.SecretWord{
+    color: #181c26;
+    font-size: 110px;
+    letter-spacing: 10px;
+    margin: 0 0 0 0;
+    transform: translate(0px, -50px);
+}
+
+.attempsText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.SendingButton{
+    width: 225px;
+    height: 45px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #3a404d, #181c26);
+    color:#fff;
+    transform: translate(0px, 10px);
+}
+
+.InputCase{
+    width: 360px;
+    height: 32px;
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    color: #fff;
+}

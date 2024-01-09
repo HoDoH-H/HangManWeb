@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="/static/Win&LoseStyle.css"/>
+    </head>
+    <body> 
+        <div class="bloc-2">
+            <p class="LoseWinText">Game Over</p>
+            <p class="WordRevealText">The word was {{.Data.Word}}</p>
+            <form action="/RestartGame" method="post">
+                <button class="Button-1">New Game</button>
+            </form>
+            <form action="/NeedUpdate" method="post">
+                <button class="Button-2">Menu</button>
+            </form>
+        </div>
+        <div class="WinStreak">
+            <p class="WinText">Wins:</p>
+            <p class="WinText2">{{.User.Score}}</p>
+        </div>
+        <div class="HangmanDrawing">
+            {{if lt .Data.Life 10}}
+                <div class="Draw-1"></div>
+            {{end}}
+            {{if lt .Data.Life 9}}
+                <div class="Draw-2"></div>
+            {{end}}
+            {{if lt .Data.Life 8}}
+                <div class="Draw-3"></div>
+            {{end}}
+            {{if lt .Data.Life 7}}
+                <div class="Draw-4"></div>
+            {{end}}
+            {{if lt .Data.Life 6}}
+                <div class="Draw-5"></div>
+            {{end}}
+            {{if lt .Data.Life 5}}
+                <div class="Draw-6"></div>
+            {{end}}
+            {{if lt .Data.Life 4}}
+                <div class="Draw-7"></div>
+            {{end}}
+            {{if lt .Data.Life 3}}
+                <div class="Draw-8"></div>
+            {{end}}
+            {{if lt .Data.Life 2}}
+                <div class="Draw-9"></div>
+            {{end}}
+            {{if lt .Data.Life 1}}
+                <div class="Draw-10"></div>
+            {{end}}
+        </div>
+    </body> 
+</html>

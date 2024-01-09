@@ -1,0 +1,167 @@
+body {
+    min-height: 450px;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, #3a404d, #181c26);
+    width: 575px;
+    height: 195px;
+    border-radius: 10px;
+    transform: translate(-400px, 250px);
+}
+
+.bloc-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, #3a404d, #181c26);
+    width: 600px;
+    height: 195px;
+    border-radius: 10px;
+    transform: translate(-400px, 250px);
+}
+
+.WinStreak{
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    width: 95px;
+    height: 95px;
+    transform: translate(-400px, 271px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.WinText{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transform: translate(5px, 0px);
+}
+
+.WinText2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transform: translate(-30px, 35px);
+}
+
+.LoseWinText{
+    font-size: 110px;
+    transform: translate(0, -100px);
+}
+
+.WordRevealText{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    transform: translate(0px, -250px);
+}
+
+.Button-1{
+    width: 200px;
+    height: 95px;
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #e1e1e1;
+    transform: translate(-150px, -225px);
+}
+
+.Button-2{
+    width: 200px;
+    height: 95px;
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #e1e1e1;
+    transform: translate(150px, -320px);
+}
+
+.HangmanDrawing{
+    background: linear-gradient(to top, #3a404d, #181c26);
+    width: 500px;
+    height: 600px;
+    transform: translate(425px, -200px);
+    border-radius: 10px;
+}
+
+.Draw-1{
+    background: white;
+    width: 350px;
+    height: 5px;
+    transform: translate(75px, 500px);
+}
+
+.Draw-2{
+    background: white;
+    width: 5px;
+    height: 400px;
+    transform: translate(100px, 100px);
+}
+
+.Draw-3{
+    background: white;
+    width: 200px;
+    height: 5px;
+    transform: translate(100px, -300px);
+}
+
+.Draw-4{
+    background: white;
+    width: 150px;
+    height: 5px;
+    transform: translate(80px, -252px) rotate(-45deg);
+}
+
+.Draw-5{
+    background: linear-gradient(to bottom, white 0%, white 20%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 40%, white 40%, white 60%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%, white 80%, white 100%);
+    width: 5px;
+    height: 50px;
+    transform: translate(300px, -310px);
+}
+
+.Draw-6{
+    background: white;
+    width: 90px;
+    height: 90px;
+    transform: translate(257px, -310px);
+    border-radius: 100%;
+}
+
+.Draw-7{
+    background: white;
+    width: 5px;
+    height: 130px;
+    transform: translate(300px, -310px);
+}
+
+.Draw-8{
+    background: white;
+    width: 140px;
+    height: 5px;
+    transform: translate(233px, -400px);
+}
+
+.Draw-9{
+    background: white;
+    width: 80px;
+    height: 5px;
+    transform: translate(252px, -282px) rotate(-75deg);
+}
+
+.Draw-10{
+    background: white;
+    width: 80px;
+    height: 5px;
+    transform: translate(273px, -287px) rotate(75deg);
+}
